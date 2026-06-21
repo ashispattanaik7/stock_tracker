@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+
+# Logs
+logs/*.log
+
+# Database
+data/*.db
+
+# Screenshots
+screenshots/
+
+# OS files
+.DS_Store
+Thumbs.db

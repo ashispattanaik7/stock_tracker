@@ -33,6 +33,16 @@ for product in PRODUCTS:
 
         current_status = get_status(product)
 
+        if current_status == "UNKNOWN":
+
+            log(
+                f"WARNING | {product['name']} returned UNKNOWN"
+            )
+
+            print("UNKNOWN STATUS")
+
+            continue
+
         # Scraper recovered?
         previous_health = get_scraper_health(
             scraper_name

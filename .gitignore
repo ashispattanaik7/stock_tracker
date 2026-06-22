@@ -17,3 +17,16 @@ screenshots/
 # OS files
 .DS_Store
 Thumbs.db
+
+venv/
+__pycache__/
+*.pyc
+
+browser-profile/
+
+logs/*.log
+
+screenshots/*.png
+
+*.html
+*.png

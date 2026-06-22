@@ -15,7 +15,7 @@ Personal stock tracking system built with Python.
 
 ## Run
 
-```bash
+bash:
 python tracker.py
 
 Automation
@@ -23,3 +23,4 @@ sudo systemctl start stock-tracker.timer
 
 Current Scrapers
 Amul Online Store
+Hmt Online Store
